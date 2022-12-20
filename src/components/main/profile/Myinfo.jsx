@@ -31,14 +31,10 @@ export default function Myinfo () {
             
             : 
                 <div className={styles.info}>
-                    <input className={styles.input_names} type="text" placeholder='First Name'/>
-                    <input className={styles.input_names} type="text" placeholder='Last Name'/>
-                    <input className={styles.input_names} type="email" placeholder='Email'/>
-                    <input className={styles.input_names} type="phone" placeholder='Phone'/>
-                    <input className={styles.input_names} type="text" placeholder='Last Name'/>
-                    <input className={styles.input_names} type="email" placeholder='Email'/>
-                    <input className={styles.input_names} type="phone" placeholder='Phone'/>
-                    <input className={styles.input_names} type="phone" placeholder='Phone'/>
+                    <input className={styles.input_names} type="text" placeholder='Company Name'/>
+                    <input className={styles.input_names} type="number" placeholder='ИНН/VAT/TIN'/>
+                    <input className={styles.input_names} type="email" placeholder='Company email'/>
+                    <input className={styles.input_names} type="phone" placeholder='Company Phone'/>
                 </div>
                 
             }

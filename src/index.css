@@ -119,7 +119,9 @@ label {
 legend {
 	display: block;
 }
-
+svg {
+  fill: rgba(255, 255, 255, 0.842);
+}
 /* div {
 opacity: 0;
 animation: ani 1s forwards;
