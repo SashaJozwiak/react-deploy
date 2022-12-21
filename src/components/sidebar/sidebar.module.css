@@ -1,10 +1,27 @@
 
-
 ul.page_lists {
     width: 200px;
     padding: 3px 3px 3px 3px;
     text-align: center;
     
+}
+
+.profile {
+    margin-top: 15px;
+}
+
+.icons {
+    fill:white;
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+}
+
+.icons_active {
+    fill:#48a3bd;
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
 }
 
 
@@ -48,10 +65,16 @@ padding-bottom: 0px;
     color: #48a3bd;
 }
 
+.links:hover svg {
+    fill: #48a3bd;
+}
+
 .links_active {
     color: #48a3bd;
     border-radius: 10px;
     border: 2px solid #48a3bd;
     cursor: pointer;
     transition: 0.9s ease-out;
+    
 }
+
