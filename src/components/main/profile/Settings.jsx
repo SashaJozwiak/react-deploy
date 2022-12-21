@@ -5,9 +5,6 @@ import styles from './profile_styles/Settings.module.css'
 export default function Settings () {
     const [person, setPerson] = useState(1);
 
-
-
-
     return (
         <div className={styles.myinfo}>
             <ul className={styles.person_lists}>
