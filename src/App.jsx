@@ -1,7 +1,7 @@
 import { Fragment, useState } from 'react';
 
 import Sidebar from './components/sidebar/Sidebar.jsx';
-import Myinfo from '../src/components/main/profile/Myinfo'
+import Settings from './components/main/profile/Settings'
 
 import './App.css';
 
@@ -17,7 +17,7 @@ import './App.css';
     setActiveId = {setActiveCategory}/>
 
     <main className='main'>
-      {activeCategory === 1? <Myinfo/> : null}
+      {activeCategory === 2? <Settings/> : null}
 
     </main>
 

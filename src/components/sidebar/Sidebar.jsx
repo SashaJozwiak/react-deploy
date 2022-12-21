@@ -98,17 +98,6 @@ export default function Sidebar ({activeId, setActiveId}) {
                         :category.id === 11 ? bonusesIcon: null} {category.title}</li>)}
                 </ul>
             </section>
-
-        
-
-
-
-
         </nav>
-
     );
-
-
-
-
 }
