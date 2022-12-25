@@ -1,0 +1,22 @@
+.projects_container {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid gray; */
+    align-items: center;
+}
+
+.projects {
+    margin-top: 15px ;
+    width: 700px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.projects_stats {
+    margin-top: 15px ;
+    width: 700px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}

@@ -8,7 +8,7 @@ export default function Sidebar ({activeId, setActiveId}) {
         dashboardIcon,
         settingsIcon,
         communicateIcon,
-        docFaqIcons,
+        docFaqIcon,
         designIcon,
         develompmentIcon,
         sEOHostingIcon,
@@ -56,7 +56,7 @@ export default function Sidebar ({activeId, setActiveId}) {
                         {category.id === 1 ? dashboardIcon
                         :category.id === 2 ? settingsIcon
                         :category.id === 3 ? communicateIcon
-                        :category.id === 4 ? docFaqIcons: null} {category.title}</li>)}
+                        :category.id === 4 ? docFaqIcon: null} {category.title}</li>)}
                 </ul>
             </section>
 

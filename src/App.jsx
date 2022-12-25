@@ -1,6 +1,7 @@
-import { Fragment, useState } from 'react';
+import {useState } from 'react';
 
 import Sidebar from './components/sidebar/Sidebar.jsx';
+import Dashboard from './components/main/profile/Dashboard.jsx';
 import Settings from './components/main/profile/Settings'
 
 import './App.css';
@@ -17,7 +18,8 @@ import './App.css';
     setActiveId = {setActiveCategory}/>
 
     <main className='main'>
-      {activeCategory === 2? <Settings/> : null}
+      {activeCategory === 1 && <Dashboard/>}
+      {activeCategory === 2 && <Settings/>}
 
     </main>
 

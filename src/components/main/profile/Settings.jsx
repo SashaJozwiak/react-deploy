@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import styles from './profile_styles/Settings.module.css'
 
-export default function Settings () {
+function Settings () {
     const [person, setPerson] = useState(1);
 
     return (
@@ -41,3 +41,5 @@ export default function Settings () {
         </div>
     )
 }
+
+export default Settings;
